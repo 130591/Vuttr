@@ -3,13 +3,13 @@ import axios from "axios";
 export class ToolsApi {
   static async index() {
     const data = await axios.get("http://localhost:3000/tools");
-    console.log(data);
+    
     return data;
   }
 
   static async create(data) {
     const resp = await axios.post("http://localhost:3000/tools", data);
-    console.log(resp);
+    
     return resp;
   }
 
