@@ -26,7 +26,7 @@ class Home extends Component {
   SearchTools = async e => {
     e.preventDefault();
 
-    if (e.target.checked === true) {
+    if (e.target.checked) {
       const resp = await ToolsApi.searchForTag(e.target.value);
 
       this.setState({ tools: resp.data });
