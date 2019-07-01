@@ -19,7 +19,7 @@ describe("testing feature filter", () => {
     expect(ToolsApi.searchForTitle("notion")).resolves.toEqual(resp);
 
     expect(ToolsApi.searchForTitle("notion")).rejects.toEqual(
-      Error("Error fetching searchForTag")
+      Error("Error fetching searchForTitle")
     );
   });
 
@@ -41,7 +41,7 @@ describe("testing crud", () => {
     expect(ToolsApi.index()).resolves.toEqual(resp);
 
     expect(ToolsApi.index()).rejects.toEqual(
-      Error("Error fetching searchForTag")
+      Error("Error fetching read data")
     );
   });
 
@@ -50,7 +50,9 @@ describe("testing crud", () => {
 
     expect(ToolsApi.create(dataFake)).resolves.toEqual(resp);
 
-    expect(ToolsApi.create(dataFake)).rejects.toEqual(resp);
+    expect(ToolsApi.create(dataFake)).rejects.toEqual(
+      Error("Error fetching create")
+    );
   });
 
   test("should delete a tool", async () => {
@@ -58,6 +60,8 @@ describe("testing crud", () => {
 
     expect(ToolsApi.delete(1)).resolves.toEqual(resp);
 
-    expect(ToolsApi.delete(1)).rejects.toEqual(resp);
+    expect(ToolsApi.delete(1)).rejects.toEqual(
+      Error("Error fetching delete")
+    );
   });
 });
