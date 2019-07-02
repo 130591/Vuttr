@@ -23,35 +23,19 @@ cd vuttr-app && yarn install ou npm install
 
 Filtrar ferramentas pelo título
 
-```python
-
-![title](assets/screencapture-localhost-3006-2019-07-01-22_44_49.png)
-
-```
+![](assets/screencapture-localhost-3006-2019-07-01-22_44_49.png)
 
 Filtrar ferramentas por tags.
 
-```python
-
-![Tags](assets/screencapture-localhost-3006-2019-07-01-22_45_25.png)
-
-```
+![](assets/screencapture-localhost-3006-2019-07-01-22_45_25.png)
 
 Deletar uma ferramenta existente.
 
-```python
-
-![Delete](assets/screencapture-localhost-3006-2019-07-01-22_43_57.png)
-
-```
+![](assets/screencapture-localhost-3006-2019-07-01-22_43_57.png)
 
 Criar uma ferramenta.
 
-```python
-
-![Alt Text](assets/screencapture-localhost-3006-2019-07-01-22_43_35.png)
-
-```
+![](assets/screencapture-localhost-3006-2019-07-01-22_43_35.png)
 
 ## Contributing
 
