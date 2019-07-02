@@ -26,7 +26,7 @@ Filtrar ferramentas pelo título
 ```python
 import foobar
 
-![](src/imagens/screencapture-localhost-3006-2019-07-01-22_44_49.png)
+![](assets/screencapture-localhost-3006-2019-07-01-22_44_49.png)
 
 ```
 
