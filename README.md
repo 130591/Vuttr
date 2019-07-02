@@ -24,36 +24,32 @@ cd vuttr-app && yarn install ou npm install
 Filtrar ferramentas pelo título
 
 ```python
-import foobar
 
-![](assets/screencapture-localhost-3006-2019-07-01-22_44_49.png)
+![title](assets/screencapture-localhost-3006-2019-07-01-22_44_49.png)
 
 ```
 
 Filtrar ferramentas por tags.
 
 ```python
-import foobar
 
-![Alt Text](https://github.com/{130591}/{Vuttr}/raw/{master}/path/src/imagens/screencapture-localhost-3006-2019-07-01-22_45_25.png)
+![Tags](assets/screencapture-localhost-3006-2019-07-01-22_45_25.png)
 
 ```
 
 Deletar uma ferramenta existente.
 
 ```python
-import foobar
 
-![Alt Text](https://github.com/{130591}/{Vuttr}/raw/{master}/path/src/imagens/screencapture-localhost-3006-2019-07-01-22_43_57.png)
+![Delete](assets/screencapture-localhost-3006-2019-07-01-22_43_57.png)
 
 ```
 
 Criar uma ferramenta.
 
 ```python
-import foobar
 
-![Alt Text](https://github.com/{130591}/{Vuttr}/raw/{master}/path/src/imagens/screencapture-localhost-3006-2019-07-01-22_43_35.png)
+![Alt Text](assets/screencapture-localhost-3006-2019-07-01-22_43_35.png)
 
 ```
 
