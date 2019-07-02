@@ -26,7 +26,7 @@ Filtrar ferramentas pelo título
 ```python
 import foobar
 
-![Alt Text](https://github.com/{130591}/{Vuttr}/raw/{master}/path/src/imagens/screencapture-localhost-3006-2019-07-01-22_44_49.png)
+![Alt Text](https://github.com/130591/Vuttr/blob/master/src/imagens/screencapture-localhost-3006-2019-07-01-22_44_49.png)
 
 ```
 
@@ -47,7 +47,6 @@ import foobar
 ![Alt Text](https://github.com/{130591}/{Vuttr}/raw/{master}/path/src/imagens/screencapture-localhost-3006-2019-07-01-22_43_57.png)
 
 ```
-
 
 Criar uma ferramenta.
 
